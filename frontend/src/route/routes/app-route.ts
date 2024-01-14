@@ -1,7 +1,7 @@
-import { lazy } from "react"
-// import Dashboard from "@/pages/dashboard/index"
+// import { lazy } from "react"
+import Dashboard from "@/pages/dashboard/index"
 
-const Dashboard = lazy(() => import("@/pages/dashboard"))
+// const Dashboard = lazy(() => import("@/pages/dashboard"))
 
 interface IAppRoutes {
   path: string

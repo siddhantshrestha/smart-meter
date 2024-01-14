@@ -4,8 +4,8 @@ import { SubmitHandler, useForm } from "react-hook-form"
 import * as yup from "yup"
 
 interface ILogin {
-  username: string
-  password: string
+  username?: string
+  password?: string
 }
 
 const schema = yup

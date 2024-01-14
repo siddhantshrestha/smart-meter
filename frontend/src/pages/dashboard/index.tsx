@@ -1,5 +1,11 @@
-function Dashboard() {
-  return <div className='text-3xl text-black'>Dashboard Page</div>
+import MiniDrawer from "@/component/drawer"
+
+const Dashboard = () => {
+  return (
+    <div>
+      <MiniDrawer />
+    </div>
+  )
 }
 
 export default Dashboard
